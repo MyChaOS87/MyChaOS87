@@ -8,6 +8,7 @@ My production work lives in private corporate repositories. This profile is my w
 
 - [`sloth`](https://github.com/MyChaOS87/sloth): GitOps-managed 3-node HA k3s cluster for home automation (Argo CD, Helm, Sealed Secrets, Longhorn, Keycloak OIDC). Deliberately a home lab: it runs on an isolated network, so I trade production rigor for fast experimentation.
 - [`reverseLCN`](https://github.com/MyChaOS87/reverseLCN): Go bridge (`lcn2mqtt`) for a proprietary smart-home bus, reverse-engineered without vendor documentation.
+- [`automqttion`](https://github.com/MyChaOS87/automqttion): Small declarative MQTT rule daemon in Go that connects [`reverseLCN`](https://github.com/MyChaOS87/reverseLCN) events to smart-home devices on [`sloth`](https://github.com/MyChaOS87/sloth), and serves as a sandbox for testing Go tooling and agentic repo setups.
 - [`smallContainersWithGo`](https://github.com/MyChaOS87/smallContainersWithGo): step-by-step walkthrough from a 390 MB Go image to a hardened, unprivileged 7 MB scratch container, prepared for an internal tech session.
 - [`antigravity-quota`](https://github.com/MyChaOS87/antigravity-quota) / [`dms-antigravity-quota`](https://github.com/MyChaOS87/dms-antigravity-quota): small desktop utilities, built as quick AI-generated experiments. At work, I use structured agentic workflows with documented quality gates instead.
 
